@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<restrictions xmlns:android="http://schemas.android.com/apk/res/android">
+    <restriction
+        android:key="regions"
+        android:title="@string/r_regions"
+        android:description="@string/r_regions_desc"
+        android:restrictionType="string"
+        android:defaultValue="" />
+    <restriction
+        android:key="auto_apply"
+        android:title="@string/r_auto_apply"
+        android:description="@string/r_auto_apply_desc"
+        android:restrictionType="bool"
+        android:defaultValue="true" />
+    <restriction
+        android:key="wifi_only"
+        android:title="@string/r_wifi_only"
+        android:description="@string/r_wifi_only_desc"
+        android:restrictionType="bool"
+        android:defaultValue="true" />
+    <restriction
+        android:key="update_days"
+        android:title="@string/r_update_days"
+        android:description="@string/r_update_days_desc"
+        android:restrictionType="integer"
+        android:defaultValue="0" />
+    <restriction
+        android:key="mirror_url"
+        android:title="@string/r_mirror_url"
+        android:description="@string/r_mirror_url_desc"
+        android:restrictionType="string"
+        android:defaultValue="" />
+</restrictions>

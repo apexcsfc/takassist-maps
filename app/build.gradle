@@ -1,0 +1,31 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.apexcsfc.takassist.maps'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.apexcsfc.takassist.maps'
+        minSdk 26
+        targetSdk 34
+        versionCode 1
+        versionName '1.0.0'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+
+    applicationVariants.all { v ->
+        v.outputs.all { archivesBaseName = "TAKAssistMaps-${v.versionName}" }
+    }
+}

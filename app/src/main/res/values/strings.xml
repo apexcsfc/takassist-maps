@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TAK Assist Maps</string>
+    <string name="r_regions">Map areas</string>
+    <string name="r_regions_desc">US states to put on the phone, separated by commas, e.g. district-of-columbia, maryland, virginia. Other Geofabrik areas by path, e.g. europe/germany. Leave empty to let users choose.</string>
+    <string name="r_auto_apply">Install automatically</string>
+    <string name="r_auto_apply_desc">Download, prepare and switch on the areas above without user action (on Wi-Fi while charging).</string>
+    <string name="r_wifi_only">Download on Wi-Fi only</string>
+    <string name="r_wifi_only_desc">Wait for an unmetered network before downloading.</string>
+    <string name="r_update_days">Refresh maps every (days)</string>
+    <string name="r_update_days_desc">Rebuild each area from fresh OpenStreetMap data after this many days. 0 = never.</string>
+    <string name="r_mirror_url">Download site (optional)</string>
+    <string name="r_mirror_url_desc">Base address of a Geofabrik mirror, for networks without internet access. Default https://download.geofabrik.de/</string>
+</resources>
